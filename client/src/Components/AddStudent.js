@@ -28,8 +28,6 @@ export const AddStudent = () => {
     navigate('/')
   }
   
-
-
   
   async function addstudent(){
     await axios.post('http://localhost:5000/api/student',student)
